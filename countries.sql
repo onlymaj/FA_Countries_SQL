@@ -1,30 +1,7 @@
--- phpMyAdmin SQL Dump
--- version 4.2.12deb2+deb8u1build0.15.04.1
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Feb 07, 2017 at 06:39 AM
--- Server version: 10.0.23-MariaDB-0ubuntu0.15.04.1
--- PHP Version: 5.6.4-4ubuntu6.4
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `bhs`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `countries`
---
 
 CREATE TABLE IF NOT EXISTS `countries` (
 `id` int(11) NOT NULL,
